@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'" />
+ <p>方法主体的实现依赖于视图技术（在本例中为Thymeleaf）来执行HTML的服务器端呈现。Thymeleaf解析greeting.html模板并评估th:text表达式以呈现${name}控制器中设置的参数值。 </p>
+</body>
+</html>
